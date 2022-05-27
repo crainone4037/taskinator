@@ -17,6 +17,7 @@ if (!taskNameInput || !taskTypeInput){
     alert("you need to fill out the task form!");
     return false;
 }
+formEl.reset();
 };
 
 
